@@ -1,0 +1,121 @@
+body, html{
+    height: 100%;
+}
+.master{
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flag{
+    border: 1px solid black;
+    margin: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.france{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue{
+    width: 33.1%;
+    height: 100%;
+    background-color: #0055A4;
+}
+
+.red{
+    width: 33.1%;
+    height: 100%;
+    background-color: #EF4135;
+}
+
+.germany{
+    display: flex;
+    flex-direction: column;
+}
+
+.black_germany{
+    background-color: black;
+    flex:1;
+}
+
+.red_germany{
+    background-color: rgb(221, 0, 0);
+    flex:1;
+}
+
+.yellow_germany{
+    background-color: #FFCE00;
+    flex:1;
+}
+
+.england{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+
+.vertical{
+    width: 12%;
+    height: 100%;
+    background-color: rgb(221, 0, 0);
+    position: absolute;
+}
+
+.horizontal{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(221, 0, 0);
+}
+
+.japan{
+    display: flex;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.punto_rojo{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(221, 0, 0);
+}
+
+.mexico{
+    border: 1px solid black;
+    display: flex;
+}
+
+.green{
+    background-color: #006341;
+    flex: 1;
+}
+
+.white{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red_mx{
+    background-color: #C8102E;
+    flex: 1;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
